@@ -24,9 +24,9 @@ guess=player_guess()
 # check guess
 def check_guess(my_list,guess):
     if(my_list[guess]=='O'):
-        print("CONGRATULATIONS!!! YOU ARE RIGHT")
+        print("CONGRATULATIONS, YOU ARE RIGHT!!!")
     else:
-        print("OOPS!!! WRONG GUESS")
+        print("OOPS, WRONG GUESS!!!")
         print("TRY AGAIN")
         print(my_list)
 
